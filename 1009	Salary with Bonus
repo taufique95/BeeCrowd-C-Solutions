@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() {
+    char name[20];
+    double fs,sale,x;
+    scanf("%s %lf %lf",&name,&fs,&sale);
+    x=fs+(sale*0.15);
+
+    printf("TOTAL = R$ %0.2lf\n",x);
+    return 0;
+
+}
