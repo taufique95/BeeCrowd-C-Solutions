@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() {
+    int number,salary;
+    double w,x;
+    scanf("%d %d %lf",&number,&salary,&w);
+    x=(salary*w);
+    printf("NUMBER = %d\n",number);
+    printf("SALARY = U$ %0.2lf\n",x);
+    return 0;
+
+}
