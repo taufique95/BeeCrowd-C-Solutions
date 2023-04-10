@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main() {
+    int wa=2,wb=3,wc=5;
+    double a,b,c,x;
+    scanf("%lf %lf %lf",&a,&b,&c);
+    x=(((a*wa)+(b*wb)+(c*wc))/(wa+wb+wc));
+    printf("MEDIA = %0.1lf\n",x);
+    return 0;
+
+}
